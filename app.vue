@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <div class="container-md">
-      <a class="navbar-brand" href="#">Hyperia Hospital</a>
+      <NuxtLink to="/" class="navbar-brand">Hyperia Hospital</NuxtLink>
       <button
         class="navbar-toggler"
         type="button"
