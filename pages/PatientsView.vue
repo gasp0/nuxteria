@@ -111,11 +111,11 @@ export default defineComponent({
       isAlergic: 'all',
     })
     useMeta({
+      title: 'Hyperia Hospital - zoznam pacientov',
       meta: [
         {
-          title: 'Hyperia Hospital - Pridaj nového pacienta',
-          description:
-            'Klasický add formular, snazil som sa vytiahnut z databazy posledne ID vakcinacie, zoznam centier a výber vakcíny',
+          name: 'description',
+          content: 'Zoznam pacientov, edit delete a zakladné sorty a filtre ',
         },
       ],
     })

@@ -61,10 +61,11 @@ export default defineComponent({
   name: 'index',
   setup() {
     useMeta({
+      title: 'Hyperia Hospital - welcome to the vue jungle',
       meta: [
         {
-          title: 'Hyperia Hospital - welcome to the vue jungle',
-          description:
+          name: 'description',
+          content:
             'Moj pokus vue 3 + compistion API + NUXT na SRR a klasicky FETCH na CRUD',
         },
       ],

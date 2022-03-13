@@ -122,16 +122,17 @@ export default defineComponent({
       vacUsed: [] as string[],
     })
     useMeta({
+      title: 'Hyperia Hospital - Pridaj nového pacienta',
       meta: [
         {
-          title: 'Hyperia Hospital - Pridaj nového pacienta',
-          description:
+          name: 'description',
+          content:
             'Klasický add formular, snazil som sa vytiahnut z databazy posledne ID vakcinacie, zoznam centier a výber vakcíny',
         },
       ],
     })
 
-    // NEW SHIT
+    // GET NEW DATA
     const [{ data: centers }, { data: patients }] = await Promise.all([
       fetchCenters(),
       fetchPatients(),

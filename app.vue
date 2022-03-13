@@ -18,17 +18,17 @@
             >
           </li>
           <li class="nav-item">
-            <NuxtLink to="/AddView" class="nav-link" @click="responsive">
+            <NuxtLink to="/addview" class="nav-link" @click="responsive">
               Pridaj pacienta</NuxtLink
             >
           </li>
           <li class="nav-item">
-            <NuxtLink to="/PatientsView" class="nav-link" @click="responsive"
+            <NuxtLink to="/patientsview" class="nav-link" @click="responsive"
               >Patients</NuxtLink
             >
           </li>
           <li class="nav-item">
-            <NuxtLink to="/CentersView" class="nav-link" @click="responsive"
+            <NuxtLink to="/centersview" class="nav-link" @click="responsive"
               >Centers</NuxtLink
             >
           </li>
@@ -70,23 +70,4 @@ export default defineComponent({
     }
   },
 })
-
-// Import the functions you need from the SDKs you need
-import { initializeApp } from 'firebase/app'
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: 'AIzaSyA5IRa4RfO6e6JW94sJA1Lf0RMQRLKyTro',
-  authDomain: 'hyperiassr.firebaseapp.com',
-  databaseURL: 'https://hyperiassr-default-rtdb.firebaseio.com',
-  projectId: 'hyperiassr',
-  storageBucket: 'hyperiassr.appspot.com',
-  messagingSenderId: '1012961282089',
-  appId: '1:1012961282089:web:ec1bd49363437df9867438',
-}
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig)
 </script>

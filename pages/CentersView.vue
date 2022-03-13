@@ -50,10 +50,11 @@ export default defineComponent({
       sortOrder: 'vaccination_centre' as CenterOrder,
     })
     useMeta({
+      title: 'Hyperia Hospital - zoznam očkovacích centrier',
       meta: [
         {
-          title: 'Hyperia Hospital - zoznam očkovacích centrier',
-          description:
+          name: 'description',
+          content:
             'Zoznam centier, najjednoduchšia podstránka, tu som testoval všetky procesy kým som sa pustil do tých zložitejších',
         },
       ],
