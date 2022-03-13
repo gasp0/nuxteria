@@ -1,6 +1,6 @@
 <template>
   <div class="row">
-    <h1 class="ms-0 m-3">Patients</h1>
+    <h1 class="ms-0 m-3">Zoznam pacientov</h1>
     <PatientFilter
       :vacUsed="vacUsed"
       :centers="centers"

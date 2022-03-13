@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1 class="ms-0 m-3">Vaccination centers</h1>
+    <h1 class="ms-0 m-3">Vakcinačné centrá</h1>
     <div class="row">
       <div class="col-sm-4">
         <label for="vacCentre" class="form-label">Zoradiť podľa</label>

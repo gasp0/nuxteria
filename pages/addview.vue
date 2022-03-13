@@ -62,14 +62,14 @@
               v-model="isAllergic"
             />
             <label class="form-check-label" for="isAllergic"
-              >Patient is allergic</label
+              >Pacient je alergický</label
             >
           </div>
         </div>
         <div class="row">
           <div class="col-6 d-flex align-items-center">
             <button type="submit" class="btn btn-primary mt-3">
-              Add patient
+              Pridaj pacienta
             </button>
           </div>
           <div class="col-6">
@@ -91,7 +91,7 @@
     <div class="col-md-3 p-3">
       <div class="alert alert-warning">
         Form check iba cez CSS, zoznam vakcinačných centrier je fetchnutý,
-        rovnako aj zoznam vakcín z vakcín ktoré sú uz nahraté pre iných
+        rovnako aj zoznam vakcín z vakcín, ktoré sú už nahraté pre iných
         pacientov :)
       </div>
     </div>

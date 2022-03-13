@@ -1,41 +1,9 @@
 <template>
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <div class="container-md">
-      <NuxtLink to="/" class="navbar-brand">Hyperia Hospital</NuxtLink>
-      <button
-        class="navbar-toggler"
-        type="button"
-        @click="dropdown = !dropdown"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" :class="{ show: dropdown }">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <NuxtLink to="/" class="nav-link" @click="responsive"
-              >Úvod</NuxtLink
-            >
-          </li>
-          <li class="nav-item">
-            <NuxtLink to="/addview" class="nav-link" @click="responsive">
-              Pridaj pacienta</NuxtLink
-            >
-          </li>
-          <li class="nav-item">
-            <NuxtLink to="/patientsview" class="nav-link" @click="responsive"
-              >Patients</NuxtLink
-            >
-          </li>
-          <li class="nav-item">
-            <NuxtLink to="/centersview" class="nav-link" @click="responsive"
-              >Centers</NuxtLink
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <Navigation
+    :dropdown="dropdown"
+    v-on:responsive="responsive()"
+    v-on:dropdown="dropdown = !dropdown"
+  />
 
   <div class="container-md">
     <NuxtPage />
@@ -43,8 +11,6 @@
 </template>
 
 <script lang="ts">
-// import { defineComponent, reactive, toRefs } from 'vue'
-
 export default defineComponent({
   name: 'App',
 

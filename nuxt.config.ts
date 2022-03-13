@@ -8,4 +8,10 @@ export default defineNuxtConfig({
     // SCSS file in the project
     '@/assets/css/custom.css',
   ],
+  loading: {
+    color: 'blue',
+    height: '5px',
+    continuous: true,
+    duration: 3000,
+  },
 })

@@ -48,9 +48,9 @@
           class="btn btn-danger"
           @click="$emit('deletePatient')"
         >
-          Delete
+          Vymazať
         </button>
-        <button type="submit" class="btn btn-primary">Edit</button>
+        <button type="submit" class="btn btn-primary">Upraviť</button>
       </div>
     </form>
   </div>
