@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "source": ".output/server",
+    "predeploy": "npm run build"
+  },
+  "hosting": [
+    {
+      "site": "hyperiassr",
+      "public": ".output/public/_nuxt",
+      "cleanUrls": true,
+      "rewrites": [
+        {
+          "source": "**",
+          "function": "server"
+        }
+      ]
+    }
+  ]
+}
