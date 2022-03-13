@@ -77,12 +77,10 @@
 </template>
 
 <script lang="ts">
-// import { defineComponent, reactive, toRefs, onMounted, computed } from 'vue'
 // COMPONENTS
 import PatientForm from '@/components/patients/PatientForm.vue'
 import PatientInfo from '@/components/patients/PatientInfo.vue'
 import PatientFilter from '@/components/patients/PatientFilter.vue'
-
 // TYPES
 import patient from '@/types/patient'
 import patientOrder from '@/types/patientOrder'
@@ -120,7 +118,7 @@ export default defineComponent({
       ],
     })
 
-    // PROVIDE VAC USED DO COMPONENTU PATIENT LEGEND
+    // PROVIDE VAC USED FOR PATIENT LEGEND
     provide(
       'vacUsed',
       computed(() => {

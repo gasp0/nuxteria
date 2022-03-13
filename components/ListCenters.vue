@@ -16,9 +16,9 @@
         :class="{ show: current === cId && clicked }"
       >
         <div class="accordion-body">
-          <strong>Pocet doktorov: </strong>
+          <strong>Počet doktorov: </strong>
           {{ doctors }} <br />
-          <strong>Pocet zaockovanych:</strong>
+          <strong>Počet zaočkovaných:</strong>
           {{ count }}
         </div>
       </div>

@@ -17,7 +17,7 @@
           <td>{{ lastName }}</td>
         </tr>
         <tr>
-          <th scope="col">Vakcinacne centrum:</th>
+          <th scope="col">Vakcinačné centrum:</th>
           <template v-for="center in centers" :key="center.id">
             <td v-if="center.id === vCen" class="w-50">
               {{ center.vaccination_centre }}
@@ -25,7 +25,7 @@
           </template>
         </tr>
         <tr>
-          <th scope="col">Vakcinacne cislo:</th>
+          <th scope="col">Vakcinačné číslo:</th>
           <td>{{ vNum }}</td>
         </tr>
         <tr class="border-0">

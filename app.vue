@@ -19,7 +19,7 @@ export default defineComponent({
       dropdown: false,
     })
 
-    // HIDE NAV BAR AFTERCLICK
+    // HIDE NAV BAR AFTER CLICK
     const responsive = () => {
       window.innerWidth > 767
         ? (state.dropdown = true)
