@@ -75,7 +75,6 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive, toRefs } from 'vue'
 import PatientLegend from '@/components/patients/PatientLegend.vue'
 
 export default defineComponent({

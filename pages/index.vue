@@ -38,8 +38,8 @@
             ak by ste ho hladali :) )
           </li>
           <li class="list-group-item bg-transparent">
-            Neviem aký spôsob server side renderingu používate, skusim to cez
-            NUXT alebo by som si nechal poradiť
+            Neviem aký spôsob server side renderingu používate, skusil som to
+            cez NUXT
           </li>
         </ol>
       </div>
@@ -55,8 +55,6 @@
 </template>
 
 <script lang="ts">
-//import { defineComponent } from 'vue'
-
 export default defineComponent({
   name: 'index',
   setup() {
